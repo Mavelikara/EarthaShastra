@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Eartha Shastra</title>
+<link rel="stylesheet" href="styles-organic.css">
+<script src="./support.js"></script>
+<script src="./image-slot.js"></script>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <x-img-slot data-slot="logo" data-width="120" data-height="40"></x-img-slot>
+    </div>
+    <ul class="nav-links">
+      <li><a href="home-organic.html">Home</a></li>
+      <li><a href="about-organic.html" class="active">About</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+      <button class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21V19a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></button>
+      <button class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2l3 3 3 3 3-3 3-3h2v20H4V2z"/><path d="M3 12h18"/><path d="M12 2v20"/></svg></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="about-hero">
+  <div class="about-hero-content">
+    <span class="badge">Our Story </span>
+    <h1>Where Earth Meets</h1>
+    <h1 class="highlight">Wisdom</h1>
+    <p class="lead-text">Founded on the ancient principles of Ayurveda and modern science, we create products that harmonize your lifestyle.</p>
+  </div>
+  <div class="about-hero-image">
+    <x-img-slot data-slot="aboutHeroImage" data-width="600" data-height="500"></x-img-slot>
+  </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission-section">
+  <div class="section-header">
+    <span class="badge">Our Purpose</span>
+    <h2>Grounded in <em>Principle</em></h2>
+    <p>We believe in the power of nature to heal, nurture, and transform. Our mission is to make authentic Ayurvedic wellness accessible for modern living.</p>
+  </div>
+
+  <div class="pillars-grid">
+    <div class="pillar-card">
+      <div class="pillar-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7z"/></svg></div>
+      <h3>Nature-First</h3>
+      <p>Every ingredient sourced from sustainable, organic farms with respect for the earth.</p>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+      <h3>Time-Honored</h3>
+      <p>Formulations rooted in 5,000 years of Ayurvedic wisdom, adapted for today.</p>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></div>
+      <h3>Science-Backed</h3>
+      <p>Modern research validates every formulation before it reaches your hands.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Story Section -->
+<section class="story-section">
+  <div class="story-grid">
+    <div class="story-content">
+      <span class="badge">Our Journey</span>
+      <h2>Born From <em>Belief</em></h2>
+      <p>Eartha Shastra began in a small kitchen in Kerala, where our founders blended generational ayurvedic recipes with a passion for pure, healing ingredients.</p>
+      <p>What started as a personal quest for better wellness products has grown into a movement that touches lives across India and beyond.</p>
+      <p>Every product we create is a pledge: to honor tradition, embrace science, and deliver results you can feel.</p>
+    </div>
+    <div class="story-image">
+      <x-img-slot data-slot="storyImage" data-width="550" data-height="450"></x-img-slot>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section">
+  <div class="section-header">
+    <span class="badge">The People</span>
+    <h2>Meet Our <em>Team</em></h2>
+    <p>Passionate experts united by a shared belief in nature's power.</p>
+  </div>
+
+  <div class="team-grid">
+    <div class="team-card">
+      <div class="team-photo">
+        <x-img-slot data-slot="team1Photo" data-width="280" data-height="300"></x-img-slot>
+      </div>
+      <h3>Dr. Anurag Sharma</h3>
+      <span class="role">Chief Ayurveda Officer</span>
+      <p>With 25 years of clinical Ayurveda practice, Dr. Sharma guides our formulation philosophy.</p>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <x-img-slot data-slot="team2Photo" data-width="280" data-height="300"></x-img-slot>
+      </div>
+      <h3>Divya Menon</h3>
+      <span class="role">Head of Product Science</span>
+      <p>Biotechnology researcher who bridges ancient wisdom with modern scientific validation.</p>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <x-img-slot data-slot="team3Photo" data-width="280" data-height="300"></x-img-slot>
+      </div>
+      <h3>Ravi Kumar</h3>
+      <span class="role">Sustainability Director</span>
+      <p>Environmental scientist ensuring every part of our supply chain respects the planet.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Values Section -->
+<section class="values-section">
+  <h3>Our Commitment To You</h3>
+  <div class="values-grid">
+    <div class="value-item">
+      <div class="value-icon"></div>
+      <div>
+        <h4>100% Natural Ingredients</h4>
+        <p>No synthetics, no fillers, no compromises</p>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="value-icon"></div>
+      <div>
+        <h4>Cruelty-Free Always</h4>
+        <p>Never tested on animals, ever</p>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="value-icon"></div>
+      <div>
+        <h4>Sustainable Packaging</h4>
+        <p>Refillable, recyclable, and biodegradable options</p>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="value-icon"></div>
+      <div>
+        <h4>Fair Trade Sourcing</h4>
+        <p>Farmers and artisans paid fairly for their craft</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-brand">
+      <x-img-slot data-slot="logo" data-width="120" data-height="40"></x-img-slot>
+      <p class="footer-tagline">Rooted in nature. Raised by science.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="home-organic.html">Home</a></li>
+          <li><a href="about-organic.html">About Us</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Help</h5>
+        <ul>
+          <li><a href="faq-organic.html">FAQ</a></li>
+          <li><a href="shipping-policy-organic.html">Shipping Policy</a></li>
+          <li><a href="refund-policy-organic.html">Returns & Refunds</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="privacy-policy-organic.html">Privacy Policy</a></li>
+          <li><a href="terms-organic.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Eartha Shastra. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
