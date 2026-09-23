@@ -1,1 +1,0 @@
-# Eartha Shastra Website Design

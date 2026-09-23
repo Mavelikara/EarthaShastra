@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
 <meta charset="UTF-8">
-<title>Cancellation, Return &amp; Refund Policy — EarthaShastra</title>
-<link rel="stylesheet" href="styles-organic.css">
+<title>Shipping Policy — EarthaShastra</title>
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400&display=swap">
 <style>
   body{overflow-x:hidden}
   .wrap{max-width:1160px;margin:0 auto;padding-inline:var(--space-6)}
   h1, h2, h3, h4, h5, h6, .nav-brand, .card-title { font-family: "Spectral", var(--font-heading); font-weight: 300; letter-spacing: 0; }
   .btn { font-family: var(--font-body); font-weight: 600; }
-  .rule{display:flex;gap:var(--space-4);align-items:flex-start;padding-block:var(--space-6);border-top:1px solid var(--color-divider)}
-  .rule:first-of-type{border-top:0;padding-top:0}
-  .rule .no{flex:0 0 auto;width:40px;height:40px;border-radius:999px;background:var(--color-accent-100);color:var(--color-accent-800);font-family:var(--font-body);font-weight:600;font-size:15px;display:grid;place-items:center}
-  .rule p{margin:0;max-width:64ch;font-size:17px;color:color-mix(in srgb, var(--color-text) 80%, transparent)}
+  details.qa{border:1px solid var(--color-divider);border-radius:var(--radius-lg);background:var(--color-surface);padding:var(--space-6) var(--space-6)}
+  details.qa + details.qa{margin-top:var(--space-4)}
+  details.qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-6);font-family:"Spectral",var(--font-heading);font-weight:400;font-size:20px;line-height:1.45}
+  details.qa summary::-webkit-details-marker{display:none}
+  details.qa summary::after{content:"+";flex:0 0 auto;width:32px;height:32px;margin-top:-2px;border-radius:999px;background:var(--color-accent-100);color:var(--color-accent-800);font-family:var(--font-body);font-weight:600;font-size:20px;line-height:30px;text-align:center}
+  details.qa[open] summary::after{content:"–"}
+  details.qa summary:hover::after{background:var(--color-accent-200)}
+  details.qa p{margin-bottom:0;margin-top:var(--space-4);max-width:70ch;color:color-mix(in srgb, var(--color-text) 78%, transparent)}
+  details.qa p + p{margin-top:var(--space-3)}
+  details.qa ul{margin-top:var(--space-4);padding-left:22px;display:flex;flex-direction:column;gap:8px;max-width:70ch;color:color-mix(in srgb, var(--color-text) 78%, transparent)}
 </style>
 </head>
 <body>
@@ -23,12 +31,12 @@
 </div>
 
 <nav class="nav wrap" style="padding-block:var(--space-4)">
-  <a href="home-organic.html" class="nav-brand" style="text-decoration:none;color:inherit">EarthaShastra</a>
-  <a href="home-organic.html">Shop All</a>
-  <a href="home-organic.html">Gifting</a>
-  <a href="about-organic.html">About Us</a>
-  <a href="home-organic.html">Impact</a>
-  <a href="faq-organic.html">FAQ</a>
+  <a href="index.html" class="nav-brand" style="text-decoration:none;color:inherit">EarthaShastra</a>
+  <a href="index.html">Shop All</a>
+  <a href="index.html">Gifting</a>
+  <a href="about.html">About Us</a>
+  <a href="index.html">Impact</a>
+  <a href="faq.html">FAQ</a>
   <a href="#" aria-label="Instagram" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border:0;background:none;border-radius:999px">
     <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><defs><radialGradient id="ig-g" cx="28%" cy="102%" r="118%"><stop offset="0" stop-color="#fdd85b"/><stop offset="24%" stop-color="#f8a03c"/><stop offset="45%" stop-color="#e94e63"/><stop offset="68%" stop-color="#c62c93"/><stop offset="100%" stop-color="#6a30d8"/></radialGradient></defs><circle cx="20" cy="20" r="20" fill="url(#ig-g)"/><path fill="#fff" d="M16.4 10.5h7.2a5.9 5.9 0 0 1 5.9 5.9v7.2a5.9 5.9 0 0 1-5.9 5.9h-7.2a5.9 5.9 0 0 1-5.9-5.9v-7.2a5.9 5.9 0 0 1 5.9-5.9zm0 2.2a3.7 3.7 0 0 0-3.7 3.7v7.2a3.7 3.7 0 0 0 3.7 3.7h7.2a3.7 3.7 0 0 0 3.7-3.7v-7.2a3.7 3.7 0 0 0-3.7-3.7h-7.2zM20 14.9a5.1 5.1 0 1 1 0 10.2 5.1 5.1 0 0 1 0-10.2zm0 2.2a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8zm5.5-3a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/></svg>
   </a>
@@ -44,63 +52,88 @@
 </nav>
 
 <!-- HEADER -->
-<section class="wrap" style="padding-block:var(--space-8) var(--space-6);max-width:820px">
+<section class="wrap" style="padding-block:var(--space-8);max-width:820px">
   <h6 style="color:var(--color-accent-700)">Policies</h6>
-  <h1 style="font-size:46px">Cancellation, Return &amp; Refund Policy</h1>
-  <p style="font-size:17px;max-width:58ch;color:color-mix(in srgb, var(--color-text) 75%, transparent)">Cancellation requests must be raised prior to shipment dispatch. We advise customers to review order details before placing an order.</p>
+  <h1 style="font-size:46px">Shipping Policy</h1>
+  <p style="font-size:17px;max-width:58ch;color:color-mix(in srgb, var(--color-text) 75%, transparent)">Everything about how your order reaches you — dispatch timelines, delivery windows, shipping charges and what to do if a parcel arrives damaged. If your question isn't answered here, write to us and we'll help.</p>
 </section>
 
 <!-- AT A GLANCE -->
 <section class="wrap" style="padding-bottom:var(--space-8);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4)">
   <div class="card">
-    <span class="tag tag-accent" style="align-self:flex-start">Cancellation</span>
-    <h4 class="card-title">Before dispatch only</h4>
-    <p class="card-body">Raise the request before your shipment is handed to the courier.</p>
+    <span class="tag tag-accent" style="align-self:flex-start">Dispatch</span>
+    <h4 class="card-title">4–6 business days</h4>
+    <p class="card-body">Excluding Sundays and public holidays. Every product is quality-checked before packing.</p>
   </div>
   <div class="card">
-    <span class="tag tag-accent-2" style="align-self:flex-start">Refund initiated</span>
-    <h4 class="card-title">48–72 business hours</h4>
-    <p class="card-body">Counted from a successful cancellation of the order.</p>
+    <span class="tag tag-accent-2" style="align-self:flex-start">Delivery</span>
+    <h4 class="card-title">7–10 business days</h4>
+    <p class="card-body">Domestic deliveries, counted after dispatch. Timelines vary by location and courier.</p>
   </div>
   <div class="card">
-    <span class="tag tag-accent" style="align-self:flex-start">Credited</span>
-    <h4 class="card-title">2–3 working days</h4>
-    <p class="card-body">Additional time for your bank or payment provider to credit the amount.</p>
+    <span class="tag tag-accent" style="align-self:flex-start">Shipping</span>
+    <h4 class="card-title">Free above ₹999</h4>
+    <p class="card-body">Orders below ₹999 carry a flat shipping charge of ₹150.</p>
   </div>
 </section>
 
-<!-- POLICY -->
+<!-- FAQ -->
 <section class="wrap" style="padding-bottom:var(--space-8);max-width:900px">
-  <h2 style="margin-bottom:var(--space-6)">The policy in full</h2>
+  <h2 style="margin-bottom:var(--space-6)">Frequently asked questions</h2>
 
-  <div class="rule">
-    <span class="no">01</span>
-    <p>Shipments once dispatched will not be eligible for cancellation, return, or refund.</p>
-  </div>
-  <div class="rule">
-    <span class="no">02</span>
-    <p>Cancellation requests must be raised prior to shipment dispatch. We advise customers to review order details before placing an order.</p>
-  </div>
-  <div class="rule">
-    <span class="no">03</span>
-    <p>Incase of successful cancellation of the order, the refund will be initiated within 48–72 business hours.</p>
-  </div>
-  <div class="rule">
-    <span class="no">04</span>
-    <p>The credited amount may take an additional 2–3 working days to appear in the bank account, depending on the bank or payment service provider.</p>
-  </div>
-  <div class="rule">
-    <span class="no">05</span>
-    <p>At present, returns are not accepted once an order has been shipped.</p>
-  </div>
+  <details class="qa" open>
+    <summary>How does the delivery process work?</summary>
+    <p>Once your order is confirmed, it is processed through our system and prepared for dispatch. Each product undergoes a quality inspection to ensure it meets our standards before being securely packaged.</p>
+    <p>After the final quality check, the package is handed over to our trusted delivery partners for shipment. Our logistics partners aim to deliver your order at the earliest possible time. In case they are unable to reach your delivery address or attempt delivery at a suitable time, they may contact you directly to coordinate the delivery.</p>
+    <p><strong>International Shipping:</strong> For international orders, Earthashastra does not collect or bear any customs duties, import taxes, or levies imposed by the destination country. Any such charges must be paid directly by the customer to the courier service or local customs authority to receive the shipment.</p>
+  </details>
+
+  <details class="qa">
+    <summary>What locations does Earthashastra ship to?</summary>
+    <p>Earthashastra ships products across India. We strive to reach customers worldwide through reliable courier and logistics partners.</p>
+  </details>
+
+  <details class="qa">
+    <summary>How can I track my order after it has been shipped?</summary>
+    <p>Once your order is dispatched, you will receive a confirmation email containing the tracking number and the name of the courier service handling your shipment. We work only with reliable courier companies and postal services to ensure safe delivery.</p>
+    <p>Tracking details generally become active within 24–48 hours after dispatch. You can monitor the status of your shipment using the tracking link provided.</p>
+    <p>Please note that Earthashastra is not responsible for delivery delays caused by courier partners, postal services, customs clearance, or circumstances beyond our control.</p>
+  </details>
+
+  <details class="qa">
+    <summary>What is the estimated delivery timeline?</summary>
+    <ul>
+      <li>Orders are typically dispatched within 4–6 business days (excluding Sundays and public holidays).</li>
+      <li>After dispatch, domestic deliveries take approximately 7–10 business days.</li>
+    </ul>
+    <p>Delivery timelines may vary depending on location, courier partner operations, weather conditions, or unforeseen events. Delays may also occur during high-demand periods or exceptional situations.</p>
+  </details>
+
+  <details class="qa">
+    <summary>Are shipping charges applicable?</summary>
+    <p>Shipping charges depend on the order value and delivery location.</p>
+    <p><strong>Orders below ₹999: Flat shipping charge of ₹150</strong></p>
+  </details>
+
+  <details class="qa">
+    <summary>Damaged shipment and replacement policy</summary>
+    <p>Your order will be eligible for a replacement or refund under the following conditions:</p>
+    <ul>
+      <li>In the event of products received in damaged condition due to transit.</li>
+      <li>In the event of a wrong item received at your end.</li>
+      <li>Customers are requested to connect with us and upload pictures of the consignment within 24 hours on <a href="mailto:hello@earthashastra.in">hello@earthashastra.in</a>.</li>
+      <li>Based on internal reviews and confirmation, a replacement or refund request may be approved.</li>
+    </ul>
+    <p>We are happy to assist you!</p>
+  </details>
 </section>
 
 <!-- HELP -->
 <section style="background:var(--color-accent-900);color:var(--color-neutral-100);padding-block:var(--space-8)">
   <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:var(--space-6);flex-wrap:wrap">
     <div>
-      <h3 style="color:var(--color-neutral-100)">Should you need any support</h3>
-      <p style="opacity:.8;margin:0">Please reach out to us on hello@earthashastra.in</p>
+      <h3 style="color:var(--color-neutral-100)">Still have a question?</h3>
+      <p style="opacity:.8;margin:0">Write to us and we'll get back within one working day.</p>
     </div>
     <a href="mailto:hello@earthashastra.in" class="btn" style="background:var(--color-neutral-100);color:var(--color-accent-900)">Email Us</a>
   </div>
@@ -109,7 +142,7 @@
 <!-- FOOTER -->
 <footer class="wrap" style="padding-block:var(--space-8);display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));gap:var(--space-6)">
   <div>
-    <img src="uploads/ES-Logo.png" alt="EarthaShastra" style="height:72px;width:72px;display:block;margin-bottom:var(--space-2)">
+    <img src="images/logo.png" alt="EarthaShastra" style="height:72px;width:72px;display:block;margin-bottom:var(--space-2)">
     <span class="nav-brand">EarthaShastra</span>
     <p class="text-muted" style="max-width:32ch">Rituals rooted in the earth.</p>
     <div style="display:flex;gap:var(--space-2);margin-top:var(--space-3)">
@@ -133,19 +166,19 @@
   <div>
     <h6>Company</h6>
     <div style="display:flex;flex-direction:column;gap:8px;font-size:14px">
-      <a href="about-organic.html">About Us</a><a href="home-organic.html">Impact</a><a href="home-organic.html">Gifting</a><a href="faq-organic.html">FAQ</a>
+      <a href="about.html">About Us</a><a href="index.html">Impact</a><a href="index.html">Gifting</a><a href="faq.html">FAQ</a>
     </div>
   </div>
   <div>
     <h6>Policies</h6>
     <div style="display:flex;flex-direction:column;gap:8px;font-size:14px">
-      <a href="privacy-policy-organic.html">Privacy Policy</a><a href="refund-policy-organic.html">Refund Policy</a><a href="terms-organic.html">Terms &amp; Conditions</a><a href="shipping-policy-organic.html">Shipping Policy</a>
+      <a href="privacy-policy.html">Privacy Policy</a><a href="refund-policy.html">Refund Policy</a><a href="terms.html">Terms &amp; Conditions</a><a href="shipping-policy.html">Shipping Policy</a>
     </div>
   </div>
 </footer>
 <div class="text-muted" style="border-top:1px solid var(--color-divider)">
     <div class="wrap" style="position:relative;padding-block:var(--space-4) var(--space-6);font-size:12px;display:flex;justify-content:space-between;align-items:center;gap:var(--space-4)">
-    <img src="uploads/dog-cutout.png" alt="" aria-hidden="true" style="position:absolute;left:50%;top:0;width:58px;height:58px;object-fit:contain;transform:translate(-50%,-100%);filter:sepia(.62) saturate(1.3) hue-rotate(-12deg)">
+    <img src="images/dog.png" alt="" aria-hidden="true" style="position:absolute;left:50%;top:0;width:58px;height:58px;object-fit:contain;transform:translate(-50%,-100%);filter:sepia(.62) saturate(1.3) hue-rotate(-12deg)">
     <span>© 2026 EarthaShastra</span>
     <span>Made in Gujarat</span>
   </div>
